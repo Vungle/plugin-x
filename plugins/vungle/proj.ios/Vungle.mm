@@ -56,8 +56,8 @@ static NSString* kVERSION = @"0.1";
 		_assetLoader = [[VungleBytesAssetLoader alloc] init];
 		sdk.assetLoader = _assetLoader;
 		[sdk performSelector:@selector(setPluginName:version:) withObject:@"cocos2dx" withObject:kVERSION];
-		[sdk startWithAppId:[devInfo objectForKey:@"VungleID"]];
 		[sdk setDelegate:self];
+		[sdk startWithAppId:[devInfo objectForKey:@"VungleID"]];
 	}
 }
 
