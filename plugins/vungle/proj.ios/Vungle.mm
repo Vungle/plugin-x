@@ -52,9 +52,8 @@ static NSString* kVERSION = @"0.1";
 	static BOOL vungleInit = NO;
 	if (!vungleInit) {
 		vungleInit = YES;
-		VungleSDK* sdk = [VungleSDK sharedSDK];
 		_assetLoader = [[VungleBytesAssetLoader alloc] init];
-		sdk.assetLoader = _assetLoader;
+		VungleSDK* sdk = [VungleSDK setupSDKWithAssetLoader:_assetLoader];
 		[sdk performSelector:@selector(setPluginName:version:) withObject:@"cocos2dx" withObject:kVERSION];
 		[sdk setDelegate:self];
 		[sdk startWithAppId:[devInfo objectForKey:@"VungleID"]];
@@ -119,8 +118,10 @@ static NSString* kVERSION = @"0.1";
 	[AdsWrapper onAdsResult:self withRet:kAdsDismissed withMsg:msg];
 }
 
-- (void)vungleSDKhasCachedAdAvailable {
-	[AdsWrapper onAdsResult:self withRet:kAdsReceived withMsg:@"OK"];
+- (void)vungleSDKAdPlayableChanged:(BOOL)isAdPlayable {
+	if (isAdPlayable){
+		[AdsWrapper onAdsResult:self withRet:kAdsReceived withMsg:@"OK"];
+	}
 }
 
 @end

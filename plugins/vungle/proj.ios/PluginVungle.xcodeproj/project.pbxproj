@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		841CEB9C1B58E6B000CF8F3A /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
 		A964B91B19A0EC5F00D96640 /* VungleSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VungleSDK.h; sourceTree = "<group>"; };
 		A964B91C19A0EC5F00D96640 /* libvunglesdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvunglesdk.a; sourceTree = "<group>"; };
 		A964B91E19A0EC5F00D96640 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
@@ -33,13 +34,12 @@
 		A964B92019A0EC5F00D96640 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
 		A964B92119A0EC5F00D96640 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
 		A964B92219A0EC5F00D96640 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
-		A964B92319A0EC5F00D96640 /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
 		A964B97319A0F02100D96640 /* __vungle.db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __vungle.db.h; sourceTree = "<group>"; };
 		A964B97419A0F02100D96640 /* vg_close.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_close.png.h; sourceTree = "<group>"; };
 		A964B97519A0F02100D96640 /* vg_cta.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_cta.png.h; sourceTree = "<group>"; };
 		A964B97619A0F02100D96640 /* vg_mute_off.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_mute_off.png.h; sourceTree = "<group>"; };
 		A964B97719A0F02100D96640 /* vg_mute_on.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_mute_on.png.h; sourceTree = "<group>"; };
-		A964B97819A0F02100D96640 /* vg_timer.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_timer.png.h; sourceTree = "<group>"; };
+		A964B97819A0F02100D96640 /* vg_privacy.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vg_privacy.png.h; sourceTree = "<group>"; };
 		A964B97919A0F02100D96640 /* VungleBytesAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VungleBytesAssetLoader.h; sourceTree = "<group>"; };
 		A964B97A19A0F02100D96640 /* VungleBytesAssetLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VungleBytesAssetLoader.m; sourceTree = "<group>"; };
 		FADC44A7176EA82000B2D5ED /* libPluginVungle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginVungle.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,12 +83,12 @@
 		A964B91D19A0EC5F00D96640 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				841CEB9C1B58E6B000CF8F3A /* vg_privacy.png */,
 				A964B91E19A0EC5F00D96640 /* __vungle.db */,
 				A964B91F19A0EC5F00D96640 /* vg_close.png */,
 				A964B92019A0EC5F00D96640 /* vg_cta.png */,
 				A964B92119A0EC5F00D96640 /* vg_mute_off.png */,
 				A964B92219A0EC5F00D96640 /* vg_mute_on.png */,
-				A964B92319A0EC5F00D96640 /* vg_timer.png */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 				A964B97519A0F02100D96640 /* vg_cta.png.h */,
 				A964B97619A0F02100D96640 /* vg_mute_off.png.h */,
 				A964B97719A0F02100D96640 /* vg_mute_on.png.h */,
-				A964B97819A0F02100D96640 /* vg_timer.png.h */,
+				A964B97819A0F02100D96640 /* vg_privacy.png.h */,
 				A964B97919A0F02100D96640 /* VungleBytesAssetLoader.h */,
 				A964B97A19A0F02100D96640 /* VungleBytesAssetLoader.m */,
 			);
